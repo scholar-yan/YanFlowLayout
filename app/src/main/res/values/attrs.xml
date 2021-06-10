@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YanFlowLayout">
+        <!--相邻两列间距-->
+        <attr name="yan_flow_column_space" format="dimension" />
+        <!--相邻两行间距-->
+        <attr name="yan_flow_row_space" format="dimension" />
+    </declare-styleable>
+</resources>
