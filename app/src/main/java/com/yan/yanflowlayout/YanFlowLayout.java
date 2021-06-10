@@ -79,7 +79,7 @@ public class YanFlowLayout extends ViewGroup {
             // 子View个数
             int childCount = getChildCount();
             if (childCount == 0) {
-                height = 0;
+                height = getPaddingTop() + getPaddingBottom();
             } else {
                 // 最大剩余宽度
                 float maxSurplusWith = width - getPaddingLeft() - getPaddingRight();
